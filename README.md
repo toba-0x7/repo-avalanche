@@ -1,4 +1,4 @@
-## Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes.
+## Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes. (In Progress)
 
 ## Prerequisites:
 - JDK 1.8 or later
@@ -26,12 +26,8 @@ Then look for the file :
 mysql -u <user_name> -p accounts < accountsdb.sql
 ```
 ## Objectives
-- Setup Jenkins
-- Setup Sonarqube
-- Setup Dockerhub
-- Setup Minikube
-- Setup Helm
-- Configure pipeline
+- Setup Jenkins, Sonarqube, Dockerhub, Minikube, Helm
+- Configure Dockerfile, pom.xml, Helm charts, kubernetes yaml files and Jenkins file
 - Test pipeline
 - Confirm deployment
 - Clean up
