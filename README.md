@@ -14,12 +14,10 @@
 - MySQL
 
 ## Database
-Mysql DB 
-MSQL DB Installation Steps for Linux ubuntu 14.04:
-````
-sudo apt-get update
-sudo apt-get install mysql-server
-```
+MSQL DB Installation Steps for Linux ubuntu:
+- $ sudo apt-get update
+- $ sudo apt-get install mysql-server
+
 Locate the file :
 - /src/main/resources/accountsdb
 - accountsdb.sql file is a mysql dump file hence import to mysql db server
