@@ -1,4 +1,6 @@
-## Prerequisites
+## Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes.
+
+## Prerequisites:
 - JDK 1.8 or later
 - Maven 3 or later
 - MySQL 5.6 or later
@@ -10,6 +12,7 @@
 - Maven
 - JSP
 - MySQL
+
 ## Database
 Here,we used Mysql DB 
 MSQL DB Installation Steps for Linux ubuntu 14.04:
@@ -20,5 +23,16 @@ Then look for the file :
 - /src/main/resources/accountsdb
 - accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < accountsdb.sql
+
+## Objectives
+- Setup Jenkins
+- Setup Sonarqube
+- Setup Dockerhub
+- Setup Minikube
+- Setup Helm
+- Configure pipeline
+- Test pipeline
+- Confirm deployment
+- Clean up
 
 
