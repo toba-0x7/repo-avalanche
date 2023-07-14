@@ -33,18 +33,26 @@ https://chocolatey.org/install
 ## Install Vagrant
 https://community.chocolatey.org/packages/vagrant
 - To install Vagrant (Install), run the following command from the command line or from PowerShell:
-```choco install vagrant```
+```
+choco install vagrant
+```
 ## Install Virtualbox
 https://community.chocolatey.org/packages/virtualbox
 - To install Virtualbox (Install), run the following command from the command line or from PowerShell:
-```choco install virtualbox```
+```
+choco install virtualbox
+```
 ## Jenkins Setup
 - Jenkins is set up on an ubuntu 22 VM through vagrant
 https://app.vagrantup.com/bento/boxes/ubuntu-22.04
 - Choose a suitable working directory and run the following:
-```vagrant init bento/ubuntu-22.04```
+```
+vagrant init bento/ubuntu-22.04
+```
 - Do neccessary configurations to the vagrantfile and then run
-```vagrant up```
+```
+vagrant up
+```
 
 
 
