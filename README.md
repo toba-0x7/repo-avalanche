@@ -43,8 +43,8 @@ https://community.chocolatey.org/packages/virtualbox
 choco install virtualbox
 ```
 ## Jenkins Setup
-- Jenkins is set up on an ubuntu 22 VM through vagrant
 https://app.vagrantup.com/bento/boxes/ubuntu-22.04
+- Jenkins is set up on an ubuntu 22 VM through vagrant
 - Choose a suitable working directory and run the following:
 ```
 vagrant init bento/ubuntu-22.04
