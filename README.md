@@ -29,6 +29,7 @@ mysql -u <user_name> -p accounts < accountsdb.sql
 ## Install Ubuntu 22 VM
 https://github.com/toba-0x7/notebook/blob/main/os-linux/setup.md
 ## Jenkins Setup
+https://github.com/toba-0x7/notebook/blob/main/ci-cd-jenkins/jenkins-setup.md
 
 
 
