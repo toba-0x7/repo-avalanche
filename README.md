@@ -1,9 +1,7 @@
 ## Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes. (In Progress)
 
 ## Prerequisites:
-- Chocolatey
-- Vagrant
-- Virtualbox
+- Ubuntu 22 VM
 - Kubectl
 - JDK 1.8 or later
 - Maven 3 or later
@@ -21,38 +19,17 @@ Locate the file :
 mysql -u <user_name> -p accounts < accountsdb.sql
 ```
 ## Objectives
-- Install Chocolatey, Vagrant, Virtualbox
+- Install Ubuntu 22 VM
 - Setup Jenkins, Sonarqube, Dockerhub, Minikube, Helm
 - Configure Dockerfile, pom.xml, Helm charts, kubernetes yaml files and Jenkins file
 - Test pipeline
 - Confirm deployment
 - Clean up
 
-## Install Chocolatey
-https://chocolatey.org/install
-## Install Vagrant
-https://community.chocolatey.org/packages/vagrant
-- To install Vagrant (Install), run the following command from the command line or from PowerShell:
-```
-choco install vagrant
-```
-## Install Virtualbox
-https://community.chocolatey.org/packages/virtualbox
-- To install Virtualbox (Install), run the following command from the command line or from PowerShell:
-```
-choco install virtualbox
-```
+## Install Ubuntu 22 VM
+https://github.com/toba-0x7/notebook/blob/main/os-linux/setup.md
 ## Jenkins Setup
-https://app.vagrantup.com/bento/boxes/ubuntu-22.04
-- Jenkins is set up on an ubuntu 22 VM through vagrant
-- Choose a suitable working directory and run the following:
-```
-vagrant init bento/ubuntu-22.04
-```
-- Do neccessary configurations to the vagrantfile and then run
-```
-vagrant up
-```
+
 
 
 
