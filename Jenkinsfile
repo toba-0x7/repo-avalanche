@@ -103,7 +103,7 @@ pipeline {
         stage('Kubernetes Deploy') {
 	  agent { label 'pc' }
             steps {
-                    sh "helm upgrade --install --force vprofile-stack helm/vprofilecharts --set appimage=${registry}:${BUILD_NUMBER} --namespace jenkins"
+                    bat "helm upgrade --install --force vprofile-stack helm/vprofilecharts --set appimage=${registry}:${BUILD_NUMBER} --namespace jenkins"
             }
         }
 
