@@ -1,4 +1,4 @@
-## Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes. (In Progress)
+# Continuous Deployment & Integration using Github, Jenkins, Sonarqube, Docker, Kubernetes. (In Progress)
 
 ## Prerequisites:
 - Ubuntu 22 VM
@@ -30,6 +30,8 @@ mysql -u <user_name> -p accounts < accountsdb.sql
 https://github.com/toba-0x7/notebook/blob/main/os-linux/setup.md
 ## Jenkins Setup
 https://github.com/toba-0x7/notebook/blob/main/ci-cd-jenkins/jenkins-setup.md
+## Sonarqube Setup
+
 
 
 
