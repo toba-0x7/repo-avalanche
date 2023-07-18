@@ -20,7 +20,7 @@ mysql -u <user_name> -p accounts < accountsdb.sql
 ```
 ## Objectives
 - Install Ubuntu 22 VM
-- Setup Jenkins, Sonarqube, Dockerhub, Minikube, Helm
+- Setup Jenkins, Sonarqube, Docker, Minikube, Helm
 - Configure Dockerfile, pom.xml, Helm charts, kubernetes yaml files and Jenkins file
 - Test pipeline
 - Confirm deployment
@@ -31,6 +31,16 @@ https://github.com/toba-0x7/notebook/blob/main/os-linux/setup.md
 ## Jenkins Setup
 https://github.com/toba-0x7/notebook/blob/main/ci-cd-jenkins/jenkins-setup.md
 ## Sonarqube Setup
+https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/#:~:text=search_path%20to%20mySonarQubeSchema-,Installing%20SonarQube%20from%20the%20ZIP%20file,account%20for%20SonarQube%20if%20necessary.
+## Docker
+https://github.com/toba-0x7/notebook/blob/main/containerization-docker/setup.md
+## Minikube
+https://github.com/toba-0x7/notebook/blob/main/container-orchestration-k8s/minikube.md
+## Helm
+https://community.chocolatey.org/packages/kubernetes-helm
+```
+choco install kubernetes-helm
+```
 
 
 
