@@ -99,6 +99,20 @@ pipeline {
                     waitForQualityGate abortPipeline: true
                 }
             }
+        }
+           stage('Kubernetes test') {
+	  agent { label 'pc' }
+            steps {
+                script {
+                    if (isUnix()) {
+                        sh "kubectl get pods --namespace jenkins
+"
+                    } else {
+                        bat "kubectl get pods --namespace jenkins
+"
+                    }
+                }
+            }
         }       
         stage('Kubernetes Deploy') {
 	  agent { label 'pc' }
