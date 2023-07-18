@@ -41,6 +41,9 @@ https://community.chocolatey.org/packages/kubernetes-helm
 ```
 choco install kubernetes-helm
 ```
+## Add files
+Add Dockerfile, pom.xml, Helm charts, K8s yml files and Jenkins file to working directory
+## Run build in Jenkins
 
 
 
