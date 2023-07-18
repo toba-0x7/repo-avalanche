@@ -105,11 +105,9 @@ pipeline {
             steps {
                 script {
                     if (isUnix()) {
-                        sh "kubectl get pods --namespace jenkins
-"
+                        sh "kubectl get pods --namespace jenkins"
                     } else {
-                        bat "kubectl get pods --namespace jenkins
-"
+                        bat "kubectl get pods --namespace jenkins"
                     }
                 }
             }
