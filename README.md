@@ -43,7 +43,13 @@ choco install kubernetes-helm
 ```
 ## Add files
 Add Dockerfile, pom.xml, Helm charts, K8s yml files and Jenkins file to working directory
-## Run build in Jenkins
+## Pipeline & Deployment
+- Run build in Jenkins
+- Confirm deployment
+```
+kubectl get all -n <namespace>
+```
+
 
 
 
