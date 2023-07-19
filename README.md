@@ -26,24 +26,24 @@ mysql -u <user_name> -p accounts < accountsdb.sql
 - Confirm deployment
 - Clean up
 
-## Install Ubuntu 22 VM
+### Install Ubuntu 22 VM
 https://github.com/toba-0x7/notebook/blob/main/os-linux/setup.md
-## Jenkins Setup
+### Jenkins Setup
 https://github.com/toba-0x7/notebook/blob/main/ci-cd-jenkins/jenkins-setup.md
-## Sonarqube Setup
+### Sonarqube Setup
 https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/#:~:text=search_path%20to%20mySonarQubeSchema-,Installing%20SonarQube%20from%20the%20ZIP%20file,account%20for%20SonarQube%20if%20necessary.
-## Docker
+### Docker
 https://github.com/toba-0x7/notebook/blob/main/containerization-docker/setup.md
-## Minikube
+### Minikube
 https://github.com/toba-0x7/notebook/blob/main/container-orchestration-k8s/minikube.md
-## Helm
+### Helm
 https://community.chocolatey.org/packages/kubernetes-helm
 ```
 choco install kubernetes-helm
 ```
-## Add files
+### Add files
 Add Dockerfile, pom.xml, Helm charts, K8s yml files and Jenkins file to working directory
-## Pipeline & Deployment
+### Pipeline & Deployment
 - Run build in Jenkins
 - Confirm deployment
 ```
